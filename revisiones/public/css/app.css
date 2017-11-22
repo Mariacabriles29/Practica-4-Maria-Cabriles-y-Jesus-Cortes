@@ -1,0 +1,154 @@
+
+body{
+	background: linear-gradient(to bottom,#00DFFF,#FFF) no-repeat;
+	padding-bottom: 50px; 
+}
+
+.accion{
+	float: right;
+}
+
+.error{
+	text-align: center; 
+	color: red; 
+	float: left; 
+	width: 100%;
+}
+
+.exito{
+	text-align: center; 
+	color: green; 
+	float: left; 
+	width: 100%;
+}
+
+.bienvenida{
+	text-align: center; 
+	color: black; 
+	float: left; 
+	width: 100%;
+}
+
+.contenido{
+	width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #122f33;
+    padding: 30px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.linea{
+	width: 400px;
+	height: 40px;
+}
+
+.linea2{
+	width: 400px;
+	height: 110px;
+}
+
+.linea input, .linea select, span, .linea2 textarea{
+	width: 170px;
+	float: left;
+	font-size: 16px;
+}
+
+
+.linea input, .linea select, .linea2 textarea{
+	border-width: 2px;
+	border-radius: 20px;
+	border-color: white;
+	border-style: solid;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #212121;
+	margin-left: 20px;
+	background: rgba(255,255,255,0.5); 
+}
+
+textarea{
+	resize: none;
+}
+
+.linea input:focus, .linea input:active  , .linea select:focus, .linea2 textarea:focus{
+	border-color: blue;
+}
+
+.linea input[type="button"], .linea input[type="submit"]{
+	cursor: pointer;
+}
+
+span{
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+#menu1 ul{
+	width: 200px;
+	margin: auto;
+	list-style: none;
+}
+
+#menu2 ul{
+	width: 400px;
+	margin: auto;
+	list-style: none;
+}
+
+.menu li{
+	width: 200px;
+	float: left;
+	height: 40px;
+}
+
+.menu{
+	width: 100%;
+}
+
+.menu a, .menu a:link{
+	width: 190px;
+	height: 30px;
+	text-align: center;
+	background: #122f33;
+	border-width: 3px;
+	border-color: gray;
+	border-style: outset; 
+	padding: 5px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+}
+
+.menu a:active{
+	border-style: inset; 
+}
+
+table{
+	width: 700px;
+	background: #212121;
+	text-align: center;
+}
+
+td{
+	width: 120px;
+	color: white;
+	background: #122f33;
+}
+
+td:nth-child(5)
+{
+	width: 220px;
+}
+
+thead td{
+	background: #212121;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
